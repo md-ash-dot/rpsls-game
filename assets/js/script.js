@@ -31,7 +31,7 @@ function runGame(playerChoice) {
 
     let computerChoice = Math.floor(Math.random() * 5);
 
-    computerImage.src = `assets/images/${choices[computerChoice]}.png`;
+    computerImage.src = `assets/images/${choices[computerChoice]}.jpg`;
     computerImage.alt = choices[computerChoice];
 
     let result = checkWinner(choices[playerChoice], choices[computerChoice]);
