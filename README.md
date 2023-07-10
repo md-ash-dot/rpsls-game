@@ -29,7 +29,7 @@ Users of this webiste will be able to very easily understand, navigate and use t
   - The game area displays two images at the start also representing the rules.
   - The player display shows the image of the user's choice.
   - The computer side of the display generated a random choice of the computer and shows it's image.
-  - The score is display below.
+  - The score is displayed below the image.
     ![Game area](/assets/images/game-display.JPG)
 
 - **SCORE COUNTER**
