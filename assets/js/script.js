@@ -10,27 +10,28 @@ const messages = document.getElementById("messages");
 const playerImage = document.getElementById("player-choice");
 const computerImage = document.getElementById("computer-choice");
 
-
-
-// Wait for the DOM to finish loading before running the game 
-// Get the button elements and add event listeners to them
-
-document.addEventListener("DOMContentLoaded", function(){
-    let buttons = document.getElementsByTagName("button");
-    
-    for (let button of buttons){
-        
-    }
-
-})
-
-function runGame() {
-    let choice1 = Math.floor(Math.random() * 5);
+/**
+ * Add event listener to all buttons
+ */
+for (let button of buttons) {
+    button.addEventListener("click", function() {
+        let playerChoice = this.getAttribute("data-choice");
+        runGame(playerChoice);
+    });
 }
 
-function getComputerChoice() {
-    return Math.floor((Math.random() * 5) + 1);
+/** 
+ * The main game function. Accepts one paramaeter, which
+ * is the data-choice value of the selected button. 
+*/
+function runGame(playerChoice) {
+
+    playerImage.src = `assets/images/${choices[playerChoice]}.jpg`;
+    playerImage.alt = choices[playerChoice];
+
+    let computerChoice = Math.floor(Math.random() * 5);
 }
+
 
 function checkChoice() {
 
@@ -55,14 +56,3 @@ function displayPlayerChoice() {
 function displayComputerChoice() {
 
 }
-
-
-button.addEventListener("click", function () {
-    if (this.getAttribute("data-choice") === "0") {
-        alert("you clicked rock");
-
-    } else {
-        let choice = this.getAttribute("data-choice");
-        alert(`You clicked ${choice}`);
-    }
-});
