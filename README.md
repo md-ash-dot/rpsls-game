@@ -1,39 +1,116 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# ROCK PAPER SCISSORS LIZARD SPOCK
 
-Welcome,
+The Rock Paper Scissors lizard spock game website is a landing page for members of the public looking to have some fun playing a quick game.
 
-This is the Code Institute student template for Codeanywhere. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+Users of this webiste will be able to very easily understand, navigate and use the website. They will also be able to easily learn how the game works, if they aren't familiar with it.
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Codeanywhere and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **May 11th, 2023**
+![Responsive mockup](/assets/images/screens.JPG)
 
-## Codeanywhere Reminders
+## FEATURES
 
-To run a frontend (HTML, CSS, Javascript only) application in Codeanywhere, in the terminal, type:
+### EXISTING FEATURES
 
-`python3 -m http.server`
+- **NAVIGATION**
 
-A button should appear to click: _Open Preview_ or _Open Browser_.
+  - The navigation is very simple.
+  - The website is only a single page.
+  - The page can be scrolled down to reveal more content.
+    ![Navigation screenshot](/assets/images/Navigation.JPG)
 
-To run a frontend (HTML, CSS, Javascript only) application in Codeanywhere with no-cache, you can use this alias for `python3 -m http.server`.
+- **LANDING PAGE**
 
-`http_server`
+  - The landing page displays the name of the website.
+  - Below which the users are introduced to the different combinations of play using images.
+  - The users can also find the buttons used to play the game on the landing page.
+  - They can also see the rules of the game below.
+    ![Landing page hero image](/assets/images/Landing-hero.JPG)
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+- **GAME AREA**
 
-A button should appear to click: _Open Preview_ or _Open Browser_.
+  - The game area displays two images at the start also representing the rules.
+  - The player display shows the image of the user's choice.
+  - The computer side of the display generated a random choice of the computer and shows it's coressponding image.
+  - The score is display below.
+    ![Animal photos](/assets/images/animal-photos.JPG)
 
-In Codeanywhere you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+- **SCORE COUNTER **
 
-To log into the Heroku toolbelt CLI:
+  - The game score can be seen under each of the player's choice displayed.
+  - The game score can be seen increasing each the player or computer wins.
+  - The score counter will also not give a score when the outcome is a draw.
+    ![Conatct form](/assets/images/contact-form.JPG)
 
-1. Log in to your Heroku account and go to _Account Settings_ in the menu under your avatar.
-2. Scroll down to the _API Key_ and click _Reveal_
-3. Copy the key
-4. In Codeanywhere, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+- **THE RULES SECTION**
+  - The rules of the game can be found at the bottom of the page.
+  - Users can scroll down to read the very simple instructions of the game.
+    ![Find us at](/assets/images/find-us-at.JPG)
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
+### FEATURES LEFT TO IMPLEMENT
 
----
+- Seperate section displaying messages generated during each rounf of play.
+- Option to chose the number of rounds in a total game.
+- Feedback in the form of sound or animation to make the experience more enjoyable.
+- Background music, with the option to mute.
 
-Happy coding!
+## TESTING
+
+- This website has been tested to check if it works on different browsers such as Google Chrome, Microsoft Edge, Mozilla Firefox, Safari and Samsung internet.
+- The website has been tested using the dev tools device toolbar on the browser to check if it functions and looks good on all standard screen sizes, showing it uses reponsive design.
+- All text on the website has been checked to see if it is readable and is easy to understand.
+- All the buttons in the website, used to play the game has been tested and is in good working order.
+- The score counter has been tested to see if it is incrementing properly.
+
+## BUGS
+
+### SOLVED BUGS
+
+- The hero image disappeared after adding no-repeat center center after the url.
+  - Fix: Changed the background-image property to background.
+- The hero-outer properties were not getting applied.
+
+  - Fix: Id of hero-outer had a space in the name instead of (-), so used the right format.
+
+- The hero-image animation was not working.
+  - Fix: Animation rules were placed outside the curly brackets. Moved the rules inside the brackets.
+- Font-awesome icons were not appearing.
+
+  - Fix: The initial font awesome code used was incorrect and had to be corrected and the icons started working.
+
+- Cover text position was not relative to the image.
+
+  - Fix: Add position of relative to the parent element, so child elements can set it's postion absolute to it.
+
+- All my font-awesome icons were not visible.
+  - Added cdn link to the head to get the icons to load.
+
+## VALIDATOR TESTING
+
+- HTML
+
+  - No errors were returned when passing through the official [W3C validator](https://validator.w3.org/)
+
+- CSS
+
+  - No errors were found when passing through the official official [Jigsaw validator](https://jigsaw.w3.org/css-validator/)
+
+- ACCESSIBILITY
+  - The colours and fonts used are easy to read and checked using lighthouse in devtools.
+    ![Accessibility score](/assets/images/score.JPG)
+
+## DEPLOYMENT
+
+- This site was deployed using GitHub pages. The steps used to deploy are:
+  - In the GitHub repository go to the setting section.
+  - Select the main branch as default branch
+  - Go to the pages section and set branch to main and save.
+  - Once done, the page provided link to the completed website.
+
+The live link can be found here - [Peak District Animal Shelter](https://md-ash-dot.github.io/peak-district-animal-shelter/)
+
+## CREDITS
+
+### CONTENT
+
+- The Love Running project done by Code Institute has been the code which was used to learn how to build this website. - [Love Running Project](https://learn.codeinstitute.net/courses/course-v1:CodeInstitute+LR101+2021_T1/courseware/4a07c57382724cfda5834497317f24d5/f2db5fd401004fccb43b01a6066a5333/)
+- Floating navigation elements with the direction inverted was with the help of this [Link](https://codepen.io/ConStambo/pen/WxRQVq)
+- Animation fill mode for hero-image was with the help of this [Link](https://developer.mozilla.org/en-US/docs/Web/CSS/animation-fill-mode)

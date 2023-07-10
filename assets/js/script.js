@@ -14,7 +14,7 @@ const computerImage = document.getElementById("computer-choice");
  * Add event listener to all buttons
  */
 for (let button of buttons) {
-    button.addEventListener("click", function() {
+    button.addEventListener("click", function () {
         let playerChoice = this.getAttribute("data-choice");
         runGame(playerChoice);
     });
@@ -35,9 +35,6 @@ function runGame(playerChoice) {
     computerImage.alt = choices[computerChoice];
 
     let result = checkWinner(choices[playerChoice], choices[computerChoice]);
-    console.log(result);
-
-    updateScores(result);
 }
 
 /**
@@ -64,7 +61,7 @@ function checkWinner(playerChoice, computerChoice) {
     } else if (playerChoice == "spock" && computerChoice == "rock") {
         incrementPlayerScore();
     } else if (playerChoice == "rock" && computerChoice == "scissors") {
-        incrementPlayerScore();                                
+        incrementPlayerScore();
     } else if (playerChoice == "paper" && computerChoice == "scissors") {
         incrementComputerScore();
     } else if (playerChoice == "rock" && computerChoice == "paper") {
@@ -88,11 +85,10 @@ function checkWinner(playerChoice, computerChoice) {
     }
 }
 
-
-function findCorrectChoice() {
-
-}
-
+/**
+ * Increment Player score and computer score
+ * depending on winner of each round of game.
+ */
 function incrementPlayerScore() {
 
     let oldScore = parseInt(document.getElementById("player-score").innerText);
@@ -103,14 +99,4 @@ function incrementComputerScore() {
 
     let oldScore = parseInt(document.getElementById("computer-score").innerText);
     document.getElementById("computer-score").innerText = ++oldScore;
-}
-
-function displayPlayerChoice() {
-
-}
-
-function displayComputerChoice() {
-
- 
-
 }

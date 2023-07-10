@@ -1,14 +1,17 @@
+/* -------- Global style */
+
 body {
     font-family: 'DotGothic16', sans-serif;
     font-family: 'Nanum Gothic Coding', monospace;
     text-align: center;
 }
 
+/* -------- Game layout */
+
 .computer-display {
     width: 40%;
     float: right;
     padding: 20px;
-    border: 2px solid teal;
     position: center;
 }
 
@@ -16,7 +19,6 @@ body {
     width: 40%;
     float: left;
     padding: 20px;
-    border: 2px solid teal;
     position: center;
 }
 
@@ -31,6 +33,8 @@ body {
     height: 300px;
     margin: 30px;
 }
+
+/* -------- Game controls area */
 
 .controls-area {
     width: 100%;
@@ -47,10 +51,11 @@ body {
     margin: 0 auto;
 }
 
-
+/* -------- Footer */
 
 footer {
     background-color: teal;
+    width: 100%;
 }
 
 footer p {
