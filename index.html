@@ -12,28 +12,43 @@
         rel="stylesheet">
 
     <link rel="stylesheet" href="assets/CSS/style.css">
-    <title>Document</title>
+    <title>Rock Paper Scissors Lizard Spock</title>
 </head>
 <body>
     <h1 class="heading">
-        <img src="assets/images/logo.jpeg" alt="logo">Rock Paper Scissors Lizard Spock Game
+        Rock Paper Scissors Lizard Spock Game
     </h1>
 
+    <div class="score-area"> 
+        <div class="player-display">
+            <img id="player-choice">
+            <p class="scores">Your Score <span id="player-score">0</span></p>
+        </div>
+        
+        <div class="computer-display">
+            <img id="computer-choice">
+            <p class="scores">Computer Score <span id="computer-score">0</span></p>
+        </div>
+    </div>
+
+    <br>
+
     <div class="controls-area">
-
-    </div>
-
-    <div class="game-area">
-
-    </div>
-
-    <div class="choice-display-area">
-
-    </div>
-
-    <div class="score-area">
-        <p class="scores">Your Score <span id="player-score">0</span></p>
-        <p class="scores">Computer Score <span id="computer-score">0</span></p>
+        <button class="btn btn--big btn--green">
+            <i class="fa-solid fa-hand-back-fist"></i>
+        </button>
+        <button class="btn btn--big btn--blue">
+            <i class="fa-solid fa-hand"></i>
+        </button>
+        <button class="btn btn--big btn--orange">
+            <i class="fa-solid fa-hand-scissors"></i>
+        </button>
+        <button class="btn btn--big btn--red">
+            <i class="fa-solid fa-hand-lizard"></i>
+        </button>
+        <button class="btn btn--big btn--yellow">
+            <i class="fa-solid fa-hand-spock"></i>
+        </button>
     </div>
     
     <div class="rules-area">
