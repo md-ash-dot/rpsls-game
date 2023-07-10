@@ -12,14 +12,12 @@ body {
     width: 40%;
     float: right;
     padding: 20px;
-    position: center;
 }
 
 .player-display {
     width: 40%;
     float: left;
     padding: 20px;
-    position: center;
 }
 
 #player-choice {
