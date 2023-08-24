@@ -4,6 +4,7 @@ body {
     font-family: 'DotGothic16', sans-serif;
     font-family: 'Nanum Gothic Coding', monospace;
     text-align: center;
+    margin: 0;
 }
 
 /* -------- Game layout */
