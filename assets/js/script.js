@@ -68,13 +68,19 @@ function checkWinner(playerChoice, computerChoice) {
     if (playerChoiceId === computerChoiceId) {
         // It is a draw
         // Do nothing
-    } else if (playerChoice)
+    } else if (playerChoice.winsOver.includes(computerChoiceId)) {
+        //Player wins
+        incrementPlayerScore();
+    } else {
+        // Computer wins
+        incrementComputerScore();
+    }
 }
 {
 
     if (playent Player score and computer score
         * depending on winner of each round of game.
- * /;;
+ * /;;;
     function incrementPlayerScore() {
 
         let oldScore = parseInt(document.getElementById("player-score").innerText);
