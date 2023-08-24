@@ -30,8 +30,6 @@ const computerScore = document.getElementById("computer-score");
 const messages = document.getElementById("messages");
 const playerImage = document.getElementById("player-choice");
 const computerImage = document.getElementById("computer-choice");
-const computerChoiceId = computerChoice.id;
-const playerChoiceId = playerChoice.id;
 
 /**
  * Add event listener to all buttons
@@ -66,12 +64,17 @@ function runGame(playerChoice) {
 function checkWinner(playerChoice, computerChoice) {
     const playerChoiceId = playerChoice.id;
     const computerChoiceId = computerChoice.id;
+
+    if (playerChoiceId === computerChoiceId) {
+        // It is a draw
+        // Do nothing
+    } else if (playerChoice)
 }
 {
 
     if (playent Player score and computer score
         * depending on winner of each round of game.
- * /;
+ * /;;
     function incrementPlayerScore() {
 
         let oldScore = parseInt(document.getElementById("player-score").innerText);
