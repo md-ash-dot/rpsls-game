@@ -76,6 +76,7 @@ function checkWinner(playerChoice, computerChoice) {
         incrementComputerScore();
     }
 }
+
 /** 
  *Increment Player score and Computer score.
  * depending on winner of each round of game.
