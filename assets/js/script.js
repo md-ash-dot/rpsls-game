@@ -2,7 +2,28 @@
  * Declare constants for DOM elements
  * and possible choices
  */
-const choices = ["rock", "paper", "scissors", "lizard", "spock"];
+const choices = [
+    {
+        id: "rock",
+        winsOver: ["scissors", "lizard"],
+    },
+    {
+        id: "paper",
+        winsOver: ["rock", "spock"],
+    },
+    {
+        id: "scissors",
+        winsOver: ["paper", "lizard"],
+    },
+    {
+        id: "lizard",
+        winsOver: ["paper", "spock"],
+    },
+    {
+        id: "spock",
+        winsOver: ["rock", "scissors"],
+    },
+];
 const buttons = document.getElementsByClassName('input');
 const playerScore = document.getElementById("player-score");
 const computerScore = document.getElementById("computer-score");
