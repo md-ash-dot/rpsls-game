@@ -10,14 +10,10 @@ body {
 /* -------- Game layout */
 
 .computer-display {
-    width: 40%;
-    float: right;
     padding: 20px;
 }
 
 .player-display {
-    width: 40%;
-    float: left;
     padding: 20px;
 }
 
