@@ -9,13 +9,9 @@ body {
 
 /* -------- Game layout */
 
-.computer-display {
-    padding: 20px;
-}
+.computer-display {}
 
-.player-display {
-    padding: 20px;
-}
+.player-display {}
 
 #player-choice {
     width: 200px;
