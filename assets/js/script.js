@@ -47,12 +47,12 @@ for (let button of buttons) {
 */
 function runGame(playerChoice) {
 
-    playerImage.src = `assets/images/${choices[playerChoice]}.jpg`;
+    playerImage.src = `assets/images/${choices[playerChoice].id}.jpg`;
     playerImage.alt = choices[playerChoice];
 
     let computerChoice = Math.floor(Math.random() * 5);
 
-    computerImage.src = `assets/images/${choices[computerChoice]}.jpg`;
+    computerImage.src = `assets/images/${choices[computerChoice].id}.jpg`;
     computerImage.alt = choices[computerChoice];
 
     let result = checkWinner(choices[playerChoice], choices[computerChoice]);
@@ -76,19 +76,18 @@ function checkWinner(playerChoice, computerChoice) {
         incrementComputerScore();
     }
 }
-{
+/** 
+ *Increment Player score and Computer score.
+ * depending on winner of each round of game.
+ */
+function incrementPlayerScore() {
 
-    if (playent Player score and computer score
-        * depending on winner of each round of game.
- * /;;;
-    function incrementPlayerScore() {
+    let oldScore = parseInt(document.getElementById("player-score").innerText);
+    document.getElementById("player-score").innerText = ++oldScore;
+}
 
-        let oldScore = parseInt(document.getElementById("player-score").innerText);
-        document.getElementById("player-score").innerText = ++oldScore;
-    }
+function incrementComputerScore() {
 
-    function incrementComputerScore() {
-
-        let oldScore = parseInt(document.getElementById("computer-score").innerText);
-        document.getElementById("computer-score").innerText = ++oldScore;
-    }
+    let oldScore = parseInt(document.getElementById("computer-score").innerText);
+    document.getElementById("computer-score").innerText = ++oldScore;
+}
