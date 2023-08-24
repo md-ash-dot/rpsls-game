@@ -30,6 +30,8 @@ const computerScore = document.getElementById("computer-score");
 const messages = document.getElementById("messages");
 const playerImage = document.getElementById("player-choice");
 const computerImage = document.getElementById("computer-choice");
+const computerChoiceId = computerChoice.id;
+const playerChoiceId = playerChoice.id;
 
 /**
  * Add event listener to all buttons
@@ -62,62 +64,22 @@ function runGame(playerChoice) {
  * Checks to see who the winner is
  */
 function checkWinner(playerChoice, computerChoice) {
+    const playerChoiceId = playerChoice.id;
+    const computerChoiceId = computerChoice.id;
+}
+{
 
-    if (playerChoice == "scissors" && computerChoice == "paper") {
-        incrementPlayerScore();
-    } else if (playerChoice == "paper" && computerChoice == "rock") {
-        incrementPlayerScore();
-    } else if (playerChoice == "rock" && computerChoice == "lizard") {
-        incrementPlayerScore();
-    } else if (playerChoice == "lizard" && computerChoice == "spock") {
-        incrementPlayerScore();
-    } else if (playerChoice == "spock" && computerChoice == "scissors") {
-        incrementPlayerScore();
-    } else if (playerChoice == "scissors" && computerChoice == "lizard") {
-        incrementPlayerScore();
-    } else if (playerChoice == "lizard" && computerChoice == "paper") {
-        incrementPlayerScore();
-    } else if (playerChoice == "paper" && computerChoice == "spock") {
-        incrementPlayerScore();
-    } else if (playerChoice == "spock" && computerChoice == "rock") {
-        incrementPlayerScore();
-    } else if (playerChoice == "rock" && computerChoice == "scissors") {
-        incrementPlayerScore();
-    } else if (playerChoice == "paper" && computerChoice == "scissors") {
-        incrementComputerScore();
-    } else if (playerChoice == "rock" && computerChoice == "paper") {
-        incrementComputerScore();
-    } else if (playerChoice == "lizard" && computerChoice == "rock") {
-        incrementComputerScore();
-    } else if (playerChoice == "spock" && computerChoice == "lizard") {
-        incrementComputerScore();
-    } else if (playerChoice == "scissors" && computerChoice == "spock") {
-        incrementComputerScore();
-    } else if (playerChoice == "lizard" && computerChoice == "scissors") {
-        incrementComputerScore();
-    } else if (playerChoice == "paper" && computerChoice == "lizard") {
-        incrementComputerScore();
-    } else if (playerChoice == "spock" && computerChoice == "paper") {
-        incrementComputerScore();
-    } else if (playerChoice == "rock" && computerChoice == "spock") {
-        incrementComputerScore();
-    } else if (playerChoice == "scissors" && computerChoice == "rock") {
-        incrementComputerScore();
+    if (playent Player score and computer score
+        * depending on winner of each round of game.
+ * /;
+    function incrementPlayerScore() {
+
+        let oldScore = parseInt(document.getElementById("player-score").innerText);
+        document.getElementById("player-score").innerText = ++oldScore;
     }
-}
 
-/**
- * Increment Player score and computer score
- * depending on winner of each round of game.
- */
-function incrementPlayerScore() {
+    function incrementComputerScore() {
 
-    let oldScore = parseInt(document.getElementById("player-score").innerText);
-    document.getElementById("player-score").innerText = ++oldScore;
-}
-
-function incrementComputerScore() {
-
-    let oldScore = parseInt(document.getElementById("computer-score").innerText);
-    document.getElementById("computer-score").innerText = ++oldScore;
-}
+        let oldScore = parseInt(document.getElementById("computer-score").innerText);
+        document.getElementById("computer-score").innerText = ++oldScore;
+    }
