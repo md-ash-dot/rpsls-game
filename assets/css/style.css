@@ -22,15 +22,15 @@ body {
 }
 
 #player-choice {
-    width: 300px;
-    height: 300px;
-    margin: 30px;
+    width: 200px;
+    height: 200px;
+    margin: 0;
 }
 
 #computer-choice {
-    width: 300px;
-    height: 300px;
-    margin: 30px;
+    width: 200px;
+    height: 200px;
+    margin: 0;
 }
 
 /* -------- Game controls area */
