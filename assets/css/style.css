@@ -31,13 +31,7 @@ body {
 
 /* -------- Game controls area */
 
-.controls-area {
-    width: 100%;
-    height: 50%;
-    margin-top: 50px;
-    clear: both;
-    padding: 20px;
-}
+.controls-area {}
 
 .controls-area button {
     width: 60px;
