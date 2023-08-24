@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -14,17 +15,18 @@
     <link rel="stylesheet" href="assets/css/style.css">
     <title>Rock Paper Scissors Lizard Spock</title>
 </head>
+
 <body>
     <h1 class="heading">
         Rock Paper Scissors Lizard Spock Game
     </h1>
 
-    <div class="score-area"> 
+    <div class="score-area">
         <div class="player-display">
             <img id="player-choice" src="assets/images/rpsls.jpeg" alt="Rock Paper Scissors Lizard Spock">
             <p class="scores">Your Score <span id="player-score">0</span></p>
         </div>
-        
+
         <div class="computer-display">
             <img id="computer-choice" src="assets/images/rpsls.jpeg" alt="Rock Paper Scissors Lizard Spock">
             <p class="scores">Computer Score <span id="computer-score">0</span></p>
@@ -33,22 +35,27 @@
 
     <div class="controls-area">
         <button aria-label="Rock" data-choice="0" class="input">
-            <i class="fa-solid fa-hand-back-fist">Rock</i>
+            <i class="fa-solid fa-hand-back-fist"></i>
+            <span>Rock</span>
         </button>
         <button aria-label="Paper" data-choice="1" class="input">
-            <i class="fa-solid fa-hand">Paper</i>
+            <i class="fa-solid fa-hand"></i>
+            <span>Paper</span>
         </button>
         <button aria-label="Scissors" data-choice="2" class="input">
-            <i class="fa-solid fa-hand-scissors">Scissors</i>
+            <i class="fa-solid fa-hand-scissors"></i>
+            <span>Scissors</span>
         </button>
         <button aria-label="Lizard" data-choice="3" class="input">
-            <i class="fa-solid fa-hand-lizard">Lizard</i>
+            <i class="fa-solid fa-hand-lizard"></i>
+            <span>Lizard</span>
         </button>
         <button aria-label="Spock" data-choice="4" class="input">
-            <i class="fa-solid fa-hand-spock">Spock</i>
+            <i class="fa-solid fa-hand-spock"></i>
+            <span>Spock</span>
         </button>
     </div>
-    
+
     <footer>
         <h3>Rules</h3>
         <p>Scissors cuts Paper</p>
@@ -65,4 +72,5 @@
 
     <script src="assets/js/script.js"></script>
 </body>
+
 </html>
