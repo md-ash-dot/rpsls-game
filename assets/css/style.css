@@ -7,6 +7,17 @@ body {
     margin: 0;
 }
 
+/* -------- Heading */
+
+.heading {
+    margin: 0;
+}
+
+.scroll-down {
+    margin: 0;
+    font-size: 15px;
+}
+
 /* -------- Game layout */
 
 .computer-display {}
