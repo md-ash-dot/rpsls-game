@@ -100,3 +100,11 @@ function incrementComputerScore() {
     if (oldScore === winningScore) {
         endGame();
     }
+
+/**
+ * Ends the game.
+ * Display winner.
+ */
+function endGame() {
+    
+}
