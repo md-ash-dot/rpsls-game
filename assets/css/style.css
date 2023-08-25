@@ -47,9 +47,13 @@ body {
     display: inline-flex;
     align-items: center;
     flex-direction: column;
-    margin: 0 auto;
+    margin: 2px;
+    border-radius: 15px;
+
 }
 
+margin: 0 auto;
+margin: 2px;
 /* -------- Footer */
 
 footer {
