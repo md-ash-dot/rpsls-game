@@ -117,4 +117,9 @@ function endGame(winner) {
     // Reset the scores.
     playerScore.innerText = "0";
     computerScore.innerText = "0";
+
+    // Remove the game choice buttons when game ends.
+    for (let button of buttons) {
+        button.style.display = "none";
+    }
 }
