@@ -101,10 +101,10 @@ function incrementComputerScore() {
         endGame();
     }
 
-/**
- * Ends the game.
- * Display winner.
- */
-function endGame() {
-    
-}
+    /**
+     * Ends the game.
+     * Display winner.
+     */
+    function endGame() {
+        messages.textContent = "... wins the game";
+    }
