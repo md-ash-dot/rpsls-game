@@ -136,6 +136,11 @@ function endGame(winner) {
  * Resets the scores.
  */
 function restartGame() {
+    // Reset the scores
     playerScore.innerText = "0";
     computerScore.innerText = "0";
+
+    // Reset player images
+    playerImage.src = "assets/images/rpsls.jpeg";
+    computerImage.src = "assets/images/rpsls.jpeg";
 }
