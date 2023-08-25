@@ -113,4 +113,8 @@ function endGame(winner) {
     else {
         messages.textContent = "Computer wins the game";
     }
+
+    // Reset the scores.
+    playerScore.innerText = "0";
+    computerScore.innerText = "0";
 }
