@@ -30,6 +30,7 @@ const computerScore = document.getElementById("computer-score");
 const messages = document.getElementById("messages");
 const playerImage = document.getElementById("player-choice");
 const computerImage = document.getElementById("computer-choice");
+const winningScore = 5;
 
 /**
  * Add event listener to all buttons
@@ -85,10 +86,17 @@ function incrementPlayerScore() {
 
     let oldScore = parseInt(document.getElementById("player-score").innerText);
     document.getElementById("player-score").innerText = ++oldScore;
+
+    if (oldScore === winningScore) {
+        endGame();
+    }
 }
 
 function incrementComputerScore() {
 
     let oldScore = parseInt(document.getElementById("computer-score").innerText);
     document.getElementById("computer-score").innerText = ++oldScore;
-}
+
+    if (oldScore === winningScore) {
+        endGame();
+    }
