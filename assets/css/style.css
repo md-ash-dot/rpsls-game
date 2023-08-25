@@ -18,7 +18,7 @@ body {
     font-size: 15px;
 }
 
-/* -------- Game layout */
+/* -------- Player and computer choice Images */
 
 #player-choice {
     width: 200px;
@@ -32,7 +32,7 @@ body {
     margin: 0;
 }
 
-/* -------- Game controls area */
+/* -------- Game controls buttons */
 
 .controls-area button {
     width: 60px;
@@ -47,7 +47,7 @@ body {
     color: white;
 }
 
-/* -------- Footer */
+/* -------- Game rules */
 
 footer {
     background-color: #589595;
