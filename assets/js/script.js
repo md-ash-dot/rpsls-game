@@ -34,7 +34,8 @@ const computerImage = document.getElementById("computer-choice");
 const winningScore = 5;
 
 /**
- * Add event listener to all game choice buttons.
+ * Adds event listener 
+ * to all game choice buttons.
  */
 function handleClick(event) {
     let playerChoice = event.currentTarget.getAttribute("data-choice");
@@ -45,13 +46,11 @@ for (let button of buttons) {
     button.addEventListener("click", handleClick);
 }
 
-/**
- * Add event listener to the restart button.
- */
+ // Adds event listener to the restart button.
 restartButton.addEventListener("click", restartGame);
 
 /**
- * Handle the player choice and run the game
+ * Handles the player choice and run the game
  */
 function handlePlayerChoice(playerChoice) {
     runGame(playerChoice);
@@ -62,12 +61,15 @@ function handlePlayerChoice(playerChoice) {
  * is the data-choice value of the selected button. 
 */
 function runGame(playerChoice) {
-
+    
+    //Assigns the player image.
     playerImage.src = `assets/images/${choices[playerChoice].id}.jpg`;
     playerImage.alt = choices[playerChoice];
 
+    //Assigns a random number for computer choice.
     let computerChoice = Math.floor(Math.random() * 5);
 
+    //Assigns the computer image.
     computerImage.src = `assets/images/${choices[computerChoice].id}.jpg`;
     computerImage.alt = choices[computerChoice];
 
@@ -76,6 +78,7 @@ function runGame(playerChoice) {
 
 /**
  * Checks to see who the winner is
+ * and calls to increment score.
  */
 function checkWinner(playerChoice, computerChoice) {
     const playerChoiceId = playerChoice.id;
@@ -94,24 +97,30 @@ function checkWinner(playerChoice, computerChoice) {
 }
 
 /** 
- *Increment Player score and Computer score.
- * depending on winner of each round of game.
+ *Increments Player score.
+ *Checks if score has reached winning score.
  */
 function incrementPlayerScore() {
-
+    
     let oldScore = parseInt(document.getElementById("player-score").innerText);
     document.getElementById("player-score").innerText = ++oldScore;
 
+    // End game when winning score is reached.
     if (oldScore === winningScore) {
         endGame("player");
     }
 }
 
+/** 
+ *Increments Computer score.
+ * Checks if score has reached winning score.
+ */
 function incrementComputerScore() {
 
     let oldScore = parseInt(document.getElementById("computer-score").innerText);
     document.getElementById("computer-score").innerText = ++oldScore;
 
+    // Ends game when winning score is reached.
     if (oldScore === winningScore) {
         endGame("computer");
     }
@@ -119,11 +128,11 @@ function incrementComputerScore() {
 
 /**
  * Ends the game.
- * Display winner.
+ * Displays winner.
  * Removes the player choice buttons.
  */
 function endGame(winner) {
-    // Display winner message
+    // Displays winner message
     if (winner === "player") {
         messages.textContent = "Player wins the game";
     }
@@ -131,7 +140,7 @@ function endGame(winner) {
         messages.textContent = "Computer wins the game";
     }
 
-    // Remove the game choice buttons when game ends.
+    // Removes the game choice buttons when game ends.
     for (let button of buttons) {
         button.style.display = "none";
     }
@@ -139,21 +148,21 @@ function endGame(winner) {
 
 /**
  * Restarts the game.
- * Resets the scores.
+ * 
  */
 function restartGame() {
-    // Reset the scores
+    // Resets the scores
     playerScore.innerText = "0";
     computerScore.innerText = "0";
 
-    // Reset player and computer images
+    // Resets player and computer images
     playerImage.src = "assets/images/rpsls.jpeg";
     computerImage.src = "assets/images/rpsls.jpeg";
 
-    // Remove winner message
+    // Removes winner message
     messages.textContent = "";
 
-    // Add the game choice buttons again.
+    // Adds the game choice buttons again.
     for (let button of buttons) {
         button.style.display = "inline-flex";
     }
