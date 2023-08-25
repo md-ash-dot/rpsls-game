@@ -88,7 +88,7 @@ function incrementPlayerScore() {
     document.getElementById("player-score").innerText = ++oldScore;
 
     if (oldScore === winningScore) {
-        endGame();
+        endGame("player");
     }
 }
 
@@ -98,7 +98,7 @@ function incrementComputerScore() {
     document.getElementById("computer-score").innerText = ++oldScore;
 
     if (oldScore === winningScore) {
-        endGame();
+        endGame("computer");
     }
 }
 
