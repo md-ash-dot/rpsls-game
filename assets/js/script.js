@@ -36,11 +36,13 @@ const winningScore = 5;
 /**
  * Add event listener to all game choice buttons.
  */
+function handleClick(event) {
+    let playerChoice = event.currentTarget.getAttribute("data-choice");
+    handlePlayerChoice(playerChoice);
+}
+
 for (let button of buttons) {
-    button.addEventListener("click", function (event) {
-        let playerChoice = event.currentTarget.getAttribute("data-choice");
-        handlePlayerChoice(playerChoice);
-    });
+    button.addEventListener("click", handleClick);
 }
 
 /**
