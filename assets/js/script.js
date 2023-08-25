@@ -100,11 +100,17 @@ function incrementComputerScore() {
     if (oldScore === winningScore) {
         endGame();
     }
+}
 
-    /**
-     * Ends the game.
-     * Display winner.
-     */
-    function endGame() {
-        messages.textContent = "... wins the game";
+/**
+ * Ends the game.
+ * Display winner.
+ */
+function endGame(winner) {
+    if (winner === "player") {
+        messages.textContent = "Player wins the game";
     }
+    else {
+        messages.textContent = "Computer wins the game";
+    }
+}
