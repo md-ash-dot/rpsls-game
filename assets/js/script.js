@@ -122,10 +122,6 @@ function endGame(winner) {
         messages.textContent = "Computer wins the game";
     }
 
-    // Reset the scores.
-    playerScore.innerText = "0";
-    computerScore.innerText = "0";
-
     // Remove the game choice buttons when game ends.
     for (let button of buttons) {
         button.style.display = "none";
@@ -141,10 +137,15 @@ function restartGame() {
     playerScore.innerText = "0";
     computerScore.innerText = "0";
 
-    // Reset player images
+    // Reset player and computer images
     playerImage.src = "assets/images/rpsls.jpeg";
     computerImage.src = "assets/images/rpsls.jpeg";
 
     // Remove winner message
     messages.textContent = "";
+
+    // Add the game choice buttons again.
+    for (let button of buttons) {
+        button.style.display = "inline-flex";
+    }
 }
