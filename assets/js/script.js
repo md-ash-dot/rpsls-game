@@ -114,6 +114,7 @@ function incrementComputerScore() {
  * Removes the player choice buttons.
  */
 function endGame(winner) {
+    // Display winner message
     if (winner === "player") {
         messages.textContent = "Player wins the game";
     }
@@ -143,4 +144,7 @@ function restartGame() {
     // Reset player images
     playerImage.src = "assets/images/rpsls.jpeg";
     computerImage.src = "assets/images/rpsls.jpeg";
+
+    // Remove winner message
+    messages.textContent = "";
 }
