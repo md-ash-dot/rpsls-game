@@ -39,7 +39,7 @@ const winningScore = 5;
 for (let button of buttons) {
     button.addEventListener("click", function (event) {
         let playerChoice = event.currentTarget.getAttribute("data-choice");
-        runGame(playerChoice);
+        handlePlayerChoice(playerChoice);
     });
 }
 
@@ -47,6 +47,13 @@ for (let button of buttons) {
  * Add event listener to the restart button.
  */
 restartButton.addEventListener("click", restartGame);
+
+/**
+ * Handle the player choice and run the game
+ */
+function handlePlayerChoice(playerChoice) {
+    runGame(playerChoice);
+}
 
 /** 
  * The main game function. Accepts one paramaeter, which
