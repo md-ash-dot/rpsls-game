@@ -36,8 +36,8 @@ const winningScore = 5;
  * Add event listener to all buttons
  */
 for (let button of buttons) {
-    button.addEventListener("click", function () {
-        let playerChoice = this.getAttribute("data-choice");
+    button.addEventListener("click", function (event) {
+        let playerChoice = event.currentTarget.getAttribute("data-choice");
         runGame(playerChoice);
     });
 }
