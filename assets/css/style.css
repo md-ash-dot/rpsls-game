@@ -28,14 +28,12 @@ body {
     width: 200px;
     height: 200px;
     margin: 0;
-    border: 3px solid;
 }
 
 #computer-choice {
     width: 200px;
     height: 200px;
     margin: 0;
-    border: 3px solid;
 }
 
 /* -------- Game controls area */
@@ -53,7 +51,6 @@ body {
     border-radius: 15px;
     background: #1d6eb0;
     color: white;
-
 }
 
 /* -------- Footer */
