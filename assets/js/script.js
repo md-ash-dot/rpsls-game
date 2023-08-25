@@ -25,6 +25,7 @@ const choices = [
     },
 ];
 const buttons = document.getElementsByClassName('input');
+const restartButton = document.getElementById("restart-button");
 const playerScore = document.getElementById("player-score");
 const computerScore = document.getElementById("computer-score");
 const messages = document.getElementById("messages");
@@ -33,7 +34,7 @@ const computerImage = document.getElementById("computer-choice");
 const winningScore = 5;
 
 /**
- * Add event listener to all buttons
+ * Add event listener to all game choice buttons.
  */
 for (let button of buttons) {
     button.addEventListener("click", function (event) {
@@ -41,6 +42,11 @@ for (let button of buttons) {
         runGame(playerChoice);
     });
 }
+
+/**
+ * Add event listener to the restart button.
+ */
+restartButton.addEventListener("click", restartGame);
 
 /** 
  * The main game function. Accepts one paramaeter, which
@@ -105,6 +111,7 @@ function incrementComputerScore() {
 /**
  * Ends the game.
  * Display winner.
+ * Removes the player choice buttons.
  */
 function endGame(winner) {
     if (winner === "player") {
@@ -122,4 +129,13 @@ function endGame(winner) {
     for (let button of buttons) {
         button.style.display = "none";
     }
+}
+
+/**
+ * Restarts the game.
+ * Resets the scores.
+ */
+function restartGame() {
+    playerScore.innerText = "0";
+    computerScore.innerText = "0";
 }
