@@ -32,7 +32,7 @@ body {
     margin: 0;
 }
 
-/* -------- Game controls buttons */
+/* -------- Game choices control buttons */
 
 .controls-area button {
     width: 60px;
@@ -45,6 +45,12 @@ body {
     border-radius: 15px;
     background: #1d6eb0;
     color: white;
+}
+
+/* -------- Restart game button */
+
+#restart-button {
+    background: black;
 }
 
 /* -------- Game rules */
