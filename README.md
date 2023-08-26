@@ -54,7 +54,8 @@ Wireframes were designed using Lucidcharts's online wireframe tool.
   - Below which the users are introduced to the different combinations of play using images.
   - The game buttons are conveniently located on the same page for users to start playing.
   - The game rules are presented clearly right below for users to learn and reference.
-    ![Landing page](/assets/images/landing.JPG)
+  
+![Landing page](/assets/images/landing.png)
 
 - **GAME CHOICE DISPLAY AREA**
 
@@ -62,7 +63,8 @@ Wireframes were designed using Lucidcharts's online wireframe tool.
   - The player display shows the image of the user's choice.
   - The computer side reveals a randomly generated choice through an image on it's display.
   - The score is displayed below the images through the game.
-    ![Game area](/assets/images/game-display.JPG)
+    
+![Game choice display area](/assets/images/game%20display%20.png)
 
 - **SCORE COUNTER**
 
@@ -77,25 +79,28 @@ Wireframes were designed using Lucidcharts's online wireframe tool.
   - The game choice buttons are displayed right below the game choice display area.
   - The game buttons are easily accessible with the text and icons representing the choice.
   
-    ![Game choice buttons](/assets/images/game%20choice%20buttons.png)
+![Game choice buttons](/assets/images/game%20choice%20buttons.png)
 
 - **THE RESTART BUTTON**
   - The restart button is displayed along with the game choice buttons for easy access.
   - The restart button resets the scores and resets the game choice display area.
-    ![Restart button](/assets/images/restart%20button.png)
+    
+![Restart button](/assets/images/restart%20button.png)
 
 - **WINNER MESSAGE**
   - A message is displayed when the game is won.
   - The message showss the user who won the game.
   - The game choice buttons are also removed upon reaching this stage of the game.
   - The restart game will still be available for users to play the game again.
-    ![Computer wins message](/assets/images/computer%20wins.png)
-    ![Player wins message](/assets/images/player%20wins.png)
+    
+![Computer wins message](/assets/images/computer%20wins.png)
+![Player wins message](/assets/images/player%20wins.png)
 
 - **THE RULES SECTION**
   - The rules of the game is located in the bottom of the website.
   - Users can easily access it by scrolling down, to comprehend the simple instructions.
-    ![Rules section](/assets/images/rules.png)
+    
+![Rules section](/assets/images/rules.png)
 
 ### FEATURES LEFT TO IMPLEMENT
 
@@ -108,15 +113,15 @@ Wireframes were designed using Lucidcharts's online wireframe tool.
 
 The game uses responsive design or users to enjoy it across devices. The website maintains a well layed out structure without changing the way the  game looks when played on different devices like mobiles, tablets and desktops.
 
-- DESKTOP
+- DESKTOP (Macbook)
   
 ![Responsive desktop](/assets/images/responsive-desktop.png)
 
-- TABLET
+- TABLET (ipad mini)
   
 ![Responsive tablet](/assets/images/responsive-ipadmini.png)
 
-- MOBILE
+- MOBILE (galaxy S8+)
   
 ![Responsive mobile](/assets/images/responsive-galaxyS8%2B.png)
 
@@ -133,11 +138,13 @@ The game uses responsive design or users to enjoy it across devices. The website
 - HTML
 
   - No errors were returned when passing through the official [W3C validator](https://validator.w3.org/)
+
 ![HTML Validator](/assets/images/HTML%20Validator.png)
 
 - css
 
   - No errors were found when passing through the official [Jigsaw validator](https://jigsaw.w3.org/css-validator/)
+
 ![css Validator](/assets/images/css%20Validator.png)
 
 - JSHint
@@ -148,8 +155,11 @@ The game uses responsive design or users to enjoy it across devices. The website
   
   - The colours and fonts used are easy to read and checked using lighthouse in devtools for mobile and desktop.
   - Lighthouse desktop.
+
 ![Accessibility score](/assets/images/Lighthouse-desktop.png)
+
   - Lighthouse mobile.
+
 ![Accessibility score](/assets/images/Lighthouse-mobile.png)
 
 ## BUGS
