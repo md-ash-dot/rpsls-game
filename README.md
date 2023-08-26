@@ -1,8 +1,8 @@
 # ROCK PAPER SCISSORS LIZARD SPOCK
 
-A digital playground where anyone, from kids to adults, can induldge in a quick and entertaining game, that is the goal of the Rock Paper Scissors Lizard Spock game website.
+A digital playground where anyone, from kids to adults, can indulge in a quick and entertaining game, is the goal of the Rock Paper Scissors Lizard Spock game website.
 
-This online platform is designed to provide an effortless user experience, ensuring that visitors of all ages can easily grasp it's features and navigate through the website.Even for someone who might not be familiar with game, the website's user friendly layout is designed to guide them through the rules and make their experience playing the game, enjoyable and accessible.
+This online platform is designed to provide an effortless user experience, ensuring that visitors of all ages can easily grasp its features and navigate through the website. Even for someone who might not be familiar with the game, the website's user-friendly layout is designed to guide them through the rules and make their experience playing the game, enjoyable and accessible.
 
 ![Responsive mockup](/assets/images/responsive.png)
 
@@ -11,28 +11,26 @@ This online platform is designed to provide an effortless user experience, ensur
 ### USER GOALS
 
 - The user should easily understand the game upon landing on the website.
-- The user should understand the game play rules visually through an image and by reading text.
+- The user should understand the gameplay rules visually through an image and by reading text.
 - The user should view the player and computer choices at every round.
-- The user should have easy access to all game play buttons.
+- The user should have easy access to all gameplay buttons.
 - The user should identify each button of the game choices visually through an icon and by reading text.
 - The user should have an option to restart the game at all times.
-- The user should view the score from the start to end of the game.
+- The user should view the score from the start to the end of the game.
 - The user should see the player and computer score incrementing after each victory.
-- The user should play against random computer choices and experience a fair game play.
+- The user should play against random computer choices and experience fair gameplay.
 - The user should view a message at the end of the game, showing the winner of the game.
 - The user should play the game until the winning point is reached either by the player or the computer.
 - The user should view the rules of the game if required.
 
 ### DESIGN
 
-The design of the Rock Paper Scissors Lizard Spock game website offers a engaging experience for users of all ages. A very user centric approach has been taken to make the experience enjoyable. The design uses a very simple and intuitive layout with lively colours, guiding users seemlessly through the game. Accessibility is acknowledged with colours showing vibrancy and inclusivity. The user experience allows users of various degrees of familiarity to the game to understand the choices through the clear buttons holding icons and texts. Responsive design ensures a consistent experience across devices.
+The design of the Rock Paper Scissors Lizard Spock game website offers an engaging experience for users of all ages. A very user-centric approach has been taken to make the experience enjoyable. The design uses a very simple and intuitive layout with lively colours, guiding users seamlessly through the game. Accessibility is acknowledged with colours showing vibrancy and inclusivity. The user experience allows users of various degrees of familiarity with the game to understand the choices through the clear buttons holding icons and texts. Responsive design ensures a consistent experience across devices.
 
 #### TYPOGRAPHY
 
-The fomt families used are Nanum Gothic Coding, monospace. It aims to strike a balance between playful and clear communication, contributing to a user friendly interface that aligns with the website's goal of making the game accessible to users of all ages.
-
-#### COLOUR SCHEME
-
+The font families used are Nanum Gothic Coding, monospace. It aims to strike a balance between playful and clear communication, contributing to a user-friendly interface that aligns with the website's goal of making the game accessible to users of all ages.
+ 
 ### WIREFRAMES
 
 Wireframes were designed using Lucidcharts's online wireframe tool.
@@ -45,15 +43,15 @@ Wireframes were designed using Lucidcharts's online wireframe tool.
 - **NAVIGATION**
 
   - The navigation is very simple and easy.
-  - The entire content of the website is presented in a single page.
+  - The entire content of the website is presented on a single page.
   - The page can be scrolled down to reveal more content, providing further information. 
 
 - **LANDING PAGE**
 
-  - The landing page displays the name of the website, which takes the center stage.
-  - Below which the users are introduced to the different combinations of play using images.
+  - The landing page displays the name of the website, which takes center stage.
+  - Below the users are introduced to the different combinations of play using images.
   - The game buttons are conveniently located on the same page for users to start playing.
-  - The game rules are presented clearly right below for users to learn and reference.
+  - The game rules are presented right below for users to learn and reference.
   
 ![Landing page](/assets/images/landing.png)
 
@@ -61,15 +59,15 @@ Wireframes were designed using Lucidcharts's online wireframe tool.
 
   - The game area displays two images at the start which serves as a visual rules reminder.
   - The player display shows the image of the user's choice.
-  - The computer side reveals a randomly generated choice through an image on it's display.
+  - The computer side reveals a randomly generated choice through an image on its display.
   - The score is displayed below the images through the game.
-    
+
 ![Game choice display area](/assets/images/game%20display%20.png)
 
 - **SCORE COUNTER**
 
-  - The game score can be seen under each of the player's choice displayed.
-  - The game score can incremently grows after each victory of the player or computer.
+  - The game score can be seen under each of the player's choices displayed.
+  - The game score can incrementally grow after each victory of the player or computer.
   - The score counter will remain unaffected in the case of a draw.
 
 ![Computer score counter](/assets/images/computer%20score.png)
@@ -84,54 +82,57 @@ Wireframes were designed using Lucidcharts's online wireframe tool.
 - **THE RESTART BUTTON**
   - The restart button is displayed along with the game choice buttons for easy access.
   - The restart button resets the scores and resets the game choice display area.
-    
+
 ![Restart button](/assets/images/restart%20button.png)
 
 - **WINNER MESSAGE**
   - A message is displayed when the game is won.
-  - The message showss the user who won the game.
+  - The message shows the user who won the game.
   - The game choice buttons are also removed upon reaching this stage of the game.
   - The restart game will still be available for users to play the game again.
-    
+
 ![Computer wins message](/assets/images/computer%20wins.png)
 ![Player wins message](/assets/images/player%20wins.png)
 
 - **THE RULES SECTION**
-  - The rules of the game is located in the bottom of the website.
+  - The rules of the game are located at the bottom of the website.
   - Users can easily access it by scrolling down, to comprehend the simple instructions.
-    
+
 ![Rules section](/assets/images/rules.png)
 
 ### FEATURES LEFT TO IMPLEMENT
 
-- Seperate section displaying messages generated during each round of play.
-- Option to chose the number of rounds in a total game.
+- Separate section displaying messages generated during each round of play.
+- Option to choose the number of rounds in a total game.
 - Feedback in the form of sound or animation to make the experience more enjoyable.
 - Background music, with the option to mute.
 
 ### RESPONSIVE DESIGN
 
-The game uses responsive design or users to enjoy it across devices. The website maintains a well layed out structure without changing the way the  game looks when played on different devices like mobiles, tablets and desktops.
+The game uses a responsive design for users to enjoy it across devices. The website maintains a well-laid-out structure without changing the way the game looks when played on different devices like mobiles, tablets, and desktops.
 
 - DESKTOP (Macbook)
   
 ![Responsive desktop](/assets/images/responsive-desktop.png)
 
-- TABLET (ipad mini)
+- TABLET (iPad mini)
   
 ![Responsive tablet](/assets/images/responsive-ipadmini.png)
 
-- MOBILE (galaxy S8+)
+- MOBILE (Galaxy S8+)
   
 ![Responsive mobile](/assets/images/responsive-galaxyS8%2B.png)
 
 ## TESTING
 
-- This website has been tested to check if it works on different browsers such as Google Chrome, Microsoft Edge, Mozilla Firefox, Safari and Samsung internet.
-- The website has been tested using the dev tools device toolbar on the browser to check if it functions and looks good on all standard screen sizes, showing it uses reponsive design.
-- All text on the website has been checked to see if it is readable and is easy to understand.
-- All the buttons in the website, used to play the game has been tested and is in good working order.
-- The score counter has been tested to see if it is incrementing properly.
+- This website has been tested to check if it works on different browsers such as Google Chrome, Microsoft Edge, Mozilla Firefox, Safari, and Samsung Internet.
+- The website has been tested using the dev tools device toolbar on the browser to check if it functions and looks good on all standard screen sizes, showing it uses a responsive design.
+- All text on the website has been checked to see if it is readable and easy to understand.
+- All the game choice buttons on the website, used to play the game have been tested and is in good working order.
+- The restart button in the website has been tested to see if it resets the score, the player, and computer images, clears the winner message, and repopulates the game choice buttons.
+- The score counter has been tested to see if it is incrementing properly on each victory.
+- The score counter has been tested to see if scores are not incremented in the event of a draw.
+- The game has been tested to see if the player and computer have random chances of winning.
 
 ### VALIDATOR TESTING
 
@@ -153,12 +154,12 @@ The game uses responsive design or users to enjoy it across devices. The website
 
 - ACCESSIBILITY
   
-  - The colours and fonts used are easy to read and checked using lighthouse in devtools for mobile and desktop.
+  - The colours and fonts used are easy to read and checked using lighthouse in dev tools for mobile and desktop.
   - Lighthouse desktop.
 
 ![Accessibility score](/assets/images/Lighthouse-desktop.png)
 
-  - Lighthouse mobile.
+ - Lighthouse mobile.
 
 ![Accessibility score](/assets/images/Lighthouse-mobile.png)
 
@@ -166,13 +167,13 @@ The game uses responsive design or users to enjoy it across devices. The website
 
 ### SOLVED BUGS
 
-- The scores were not updating.
+- The scores were not updated.
 
-  - Fix: There were unassigned functions, which were interupting the code flow, which were later removed until using it again.
+  - Fix: There were unassigned functions, that were interrupting the code flow, which were later removed until using it again.
 
 - The buttons were not registering on the game.
 
-  - Fix: There were errors breaking the codeflow, which was later corrected.
+  - Fix: Errors were breaking the codeflow, which was later corrected.
 
 - Font-awesome icons were not appearing.
 
@@ -184,25 +185,27 @@ The game uses responsive design or users to enjoy it across devices. The website
 
 - JSHint error: Functions declared within loops referencing an outer scoped variable may lead to confusing semantics. (runGame).
 
-  - Fix: Moved event listeners into seperate functions and moved the loop to iterate through the buttons outside.
+  - Fix: Moved event listeners into separate functions and moved the loop to iterate through the buttons outside.
   
-- JSHint error: unsused variables.
+- JSHint error: unused variables.
 
   - Fix: Removed all unused variables.
 
 - Unresponsive website elements.
   
-  - Fix: Remove all height, width and float css properties.
+  - Fix: Remove all height, width and, float css properties.
 
-- 
+- Restarting the game did not populate the game choice buttons which are removed at the end of the game.
+
+  - Fix: Iterate through the buttons and apply the style that was removed at the end of the game, back again in the restart game function.
 
 ## DEPLOYMENT
 
 - This site was deployed using GitHub pages. The steps used to deploy are:
-  - In the GitHub repository go to the setting section.
-  - Select the main branch as default branch
-  - Go to the pages section and set branch to main and save.
-  - Once done, the page provided link to the completed website.
+  - In the GitHub repository go to the settings section.
+  - Select the main branch as the default branch.
+  - Go to the pages section and set the branch to main and save.
+  - Once done, the page provided a link to the completed website.
 
 The live link can be found here - [ROCK PAPER SCISSORS LIZARD SPOCK](https://md-ash-dot.github.io/rpsls-game/)
 
@@ -210,8 +213,8 @@ The live link can be found here - [ROCK PAPER SCISSORS LIZARD SPOCK](https://md-
 
 ### CODE
 
-- The Love Math project done by Code Institute has been the code which was used to learn how to build this website. - [Love Math Project](https://learn.codeinstitute.net/courses/course-v1:CodeInstitute+LM101+2021_T1/courseware/2d651bf3f23e48aeb9b9218871912b2e/234519d86b76411aa181e76a55dabe70/)
-- The Portfolio project 2 intro video by Code Institute. [Portfolio Project 2 intro](https://learn.codeinstitute.net/courses/course-v1:CodeInstitute+JSE_PAGPPF+2021_Q2/courseware/30137de05cd847d1a6b6d2c7338c4655/c3bd296fe9d643af86e76e830e1470dd/)
+- The Love Math project done by Code Institute has been the code that was used to learn how to build this website. - [Love Math Project](https://learn.codeinstitute.net/courses/course-v1:CodeInstitute+LM101+2021_T1/courseware/2d651bf3f23e48aeb9b9218871912b2e/234519d86b76411aa181e76a55dabe70/)
+- The Portfolio Project 2 intro video by Code Institute. [Portfolio Project 2 intro](https://learn.codeinstitute.net/courses/course-v1:CodeInstitute+JSE_PAGPPF+2021_Q2/courseware/30137de05cd847d1a6b6d2c7338c4655/c3bd296fe9d643af86e76e830e1470dd/)
 - w3schools was used for general code concept searches. [w3schools](https://www.w3schools.com/)
 - mdn web docs_ was used for general code concept searches. [mdn web docs_](https://developer.mozilla.org/en-US/)
 
@@ -220,6 +223,6 @@ The live link can be found here - [ROCK PAPER SCISSORS LIZARD SPOCK](https://md-
 - Icons used for the game choice buttons. - [Link](https://icon-library.com/)
 
 ### PROJECT SUPPORT
-- I would like to thank my mentor Akshat Garg from Code Institute for his support, guidance and help in planning and building this project.
-- I would like to thank all the Code Institute tutors for their support, guidance and help in solving code issues, debugging and solving all technical issues faced in building this project.
-- I would like to thank Code Institute for providing me the necessary lessons and resources to help me build my skill to build this project.
+- I would like to thank my mentor Akshat Garg from Code Institute for his support, guidance, and help in planning and building this project.
+- I would like to thank all the Code Institute tutors for their support, guidance, and help in solving code issues, debugging, and solving all technical issues faced in building this project.
+- I would like to thank Code Institute for providing me with the necessary lessons and resources to help me build my skills to build this project.
