@@ -69,8 +69,8 @@ Wireframes were designed using Lucidcharts's online wireframe tool.
   - The game score can be seen under each of the player's choice displayed.
   - The game score can incremently grows after each victory of the player or computer.
   - The score counter will remain unaffected in the case of a draw.
-    ![Computer score counter](/assets/images/computer%20score.png)
-    ![Player score counter](/assets/images/player%20score.png)
+![Computer score counter](/assets/images/computer%20score.png)
+![Player score counter](/assets/images/player%20score.png)
 
 - **THE GAME CHOICE BUTTONS**
   - The game choice buttons are displayed right below the game choice display area.
