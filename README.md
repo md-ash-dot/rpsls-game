@@ -1,4 +1,5 @@
 # ROCK PAPER SCISSORS LIZARD SPOCK
+[ROCK PAPER SCISSORS LIZARD SPOCK](https://md-ash-dot.github.io/rpsls-game/)
 
 A digital playground where anyone, from kids to adults, can indulge in a quick and entertaining game, is the goal of the Rock Paper Scissors Lizard Spock game website.
 
