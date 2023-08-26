@@ -44,7 +44,7 @@ Wireframes were designed using Lucidcharts's online wireframe tool.
 
   - The navigation is very simple and easy.
   - The entire content of the website is presented on a single page.
-  - The page can be scrolled down to reveal more content, providing further information. 
+  - The page can be scrolled down to reveal more content, providing further information.
 
 - **LANDING PAGE**
 
@@ -219,8 +219,9 @@ The live link can be found here - [ROCK PAPER SCISSORS LIZARD SPOCK](https://md-
 - mdn web docs_ was used for general code concept searches. [mdn web docs_](https://developer.mozilla.org/en-US/)
 
 ### MEDIA
-- All fonts used on the website. - [Link](https://fonts.google.com/)
-- Icons used for the game choice buttons. - [Link](https://icon-library.com/)
+- All fonts used on the website. - [google fonts](https://fonts.google.com/)
+- Icons used for the game choice buttons. - [icon library](https://icon-library.com/)
+- Wireframes were created using Lucidchart's online wireframe maker. -[lucid chart](https://www.lucidchart.com/pages/landing/wireframe-software?utm_source=google&utm_medium=cpc&utm_campaign=_chart_en_tier1_mixed_search_brand_bmm_&km_CPC_CampaignId=1490375424&km_CPC_AdGroupID=55688906577&km_CPC_Keyword=%2Blucid%20chart%20%2Bwireframe&km_CPC_MatchType=b&km_CPC_ExtensionID=&km_CPC_Network=g&km_CPC_AdPosition=&km_CPC_Creative=475760219039&km_CPC_TargetID=kwd-467383918265&km_CPC_Country=9044957&km_CPC_Device=c&km_CPC_placement=&km_CPC_target=&gclid=CjwKCAjwxaanBhBQEiwA84TVXCOZ25eNUeSYYoYKF_NLT8P31RTGKZoFXjLCmZri5FDf4GIh3FxJAhoCB_QQAvD_BwE)
 
 ### PROJECT SUPPORT
 - I would like to thank my mentor Akshat Garg from Code Institute for his support, guidance, and help in planning and building this project.
