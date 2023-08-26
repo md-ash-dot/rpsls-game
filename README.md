@@ -69,7 +69,7 @@ Wireframes were designed using Lucidcharts's online wireframe tool.
   - The game score can be seen under each of the player's choice displayed.
   - The game score can incremently grows after each victory of the player or computer.
   - The score counter will remain unaffected in the case of a draw.
-    ![Score counter](/assets/images/score.JPG)
+![Score counter](/assets/images/score.JPG)
 
 - **THE GAME CHOICE BUTTONS**
   - The game choice buttons are displayed right below the game choice display area.
@@ -143,7 +143,7 @@ The game uses responsive design or users to enjoy it across devices. The website
   - Lighthouse desktop.
 ![Accessibility score](/assets/images/Lighthouse-desktop.png)
   - Lighthouse mobile.
-    ![Accessibility score](/assets/images/Lighthouse-mobile.png)
+![Accessibility score](/assets/images/Lighthouse-mobile.png)
 
 ## BUGS
 
