@@ -182,6 +182,20 @@ The game uses responsive design or users to enjoy it across devices. The website
 
   - Fix: Changed the link for the fontawesome website.
 
+- JSHint error: Functions declared within loops referencing an outer scoped variable may lead to confusing semantics. (runGame).
+
+  - Fix: Moved event listeners into seperate functions and moved the loop to iterate through the buttons outside.
+  
+- JSHint error: unsused variables.
+
+  - Fix: Removed all unused variables.
+
+- Unresponsive website elements.
+  
+  - Fix: Remove all height, width and float css properties.
+
+- 
+
 ## DEPLOYMENT
 
 - This site was deployed using GitHub pages. The steps used to deploy are:
@@ -194,8 +208,18 @@ The live link can be found here - [ROCK PAPER SCISSORS LIZARD SPOCK](https://md-
 
 ## CREDITS
 
-### CONTENT
+### CODE
 
 - The Love Math project done by Code Institute has been the code which was used to learn how to build this website. - [Love Math Project](https://learn.codeinstitute.net/courses/course-v1:CodeInstitute+LM101+2021_T1/courseware/2d651bf3f23e48aeb9b9218871912b2e/234519d86b76411aa181e76a55dabe70/)
+- The Portfolio project 2 intro video by Code Institute. [Portfolio Project 2 intro](https://learn.codeinstitute.net/courses/course-v1:CodeInstitute+JSE_PAGPPF+2021_Q2/courseware/30137de05cd847d1a6b6d2c7338c4655/c3bd296fe9d643af86e76e830e1470dd/)
+- w3schools was used for general code concept searches. [w3schools](https://www.w3schools.com/)
+- mdn web docs_ was used for general code concept searches. [mdn web docs_](https://developer.mozilla.org/en-US/)
+
+### MEDIA
 - All fonts used on the website. - [Link](https://fonts.google.com/)
 - Icons used for the game choice buttons. - [Link](https://icon-library.com/)
+
+### PROJECT SUPPORT
+- I would like to thank my mentor Akshat Garg from Code Institute for his support, guidance and help in planning and building this project.
+- I would like to thank all the Code Institute tutors for their support, guidance and help in solving code issues, debugging and solving all technical issues faced in building this project.
+- I would like to thank Code Institute for providing me the necessary lessons and resources to help me build my skill to build this project.
