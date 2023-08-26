@@ -4,7 +4,7 @@ A digital playground where anyone, from kids to adults, can induldge in a quick 
 
 This online platform is designed to provide an effortless user experience, ensuring that visitors of all ages can easily grasp it's features and navigate through the website.Even for someone who might not be familiar with game, the website's user friendly layout is designed to guide them through the rules and make their experience playing the game, enjoyable and accessible.
 
-![Responsive mockup](/assets/images/responsive.JPG)
+![Responsive mockup](/assets/images/responsive.png)
 
 ## USER EXPERIENCE
 
@@ -36,9 +36,8 @@ The fomt families used are Nanum Gothic Coding, monospace. It aims to strike a b
 ### WIREFRAMES
 
 Wireframes were designed using Lucidcharts's online wireframe tool.
-![Wire frames](/assets/images/landing.JPG)
-
-
+![Wire frames](/assets/images/lucid-wireframes-concept.jpeg)
+ 
 ## FEATURES
 
 ### EXISTING FEATURES
@@ -103,9 +102,16 @@ Wireframes were designed using Lucidcharts's online wireframe tool.
 
 ### RESPONSIVE DESIGN
 
-The game uses responsive design or users to enjoy it across devices. The website maintains a well layed out structure without changing the way the game looks when played on different devices like mobiles, tablets and desktops.
-![Responsive design](/assets/images/footer.JPG)
+The game uses responsive design or users to enjoy it across devices. The website maintains a well layed out structure without changing the way the  game looks when played on different devices like mobiles, tablets and desktops.
 
+- DESKTOP
+![Responsive desktop](/assets/images/responsive-desktop.png)
+
+- TABLET
+![Responsive tablet](/assets/images/responsive-ipadmini.png)
+
+- MOBILE
+![Responsive mobile](/assets/images/responsive-galaxyS8%2B.png)
 
 ## TESTING
 
@@ -120,10 +126,12 @@ The game uses responsive design or users to enjoy it across devices. The website
 - HTML
 
   - No errors were returned when passing through the official [W3C validator](https://validator.w3.org/)
+![HTML Validator](/assets/images/HTML%20Validator.png)
 
-- CSS
+- css
 
   - No errors were found when passing through the official [Jigsaw validator](https://jigsaw.w3.org/css-validator/)
+![css Validator](/assets/images/css%20Validator.png)
 
 - JSHint
 
@@ -132,7 +140,10 @@ The game uses responsive design or users to enjoy it across devices. The website
 - ACCESSIBILITY
   
   - The colours and fonts used are easy to read and checked using lighthouse in devtools for mobile and desktop.
-    ![Accessibility score](/assets/images/lighthouse.JPG)
+  - Lighthouse desktop.
+![Accessibility score](/assets/images/Lighthouse-desktop.png)
+  - Lighthouse mobile.
+    ![Accessibility score](/assets/images/Lighthouse-mobile.png)
 
 ## BUGS
 
