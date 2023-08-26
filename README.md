@@ -69,29 +69,31 @@ Wireframes were designed using Lucidcharts's online wireframe tool.
   - The game score can be seen under each of the player's choice displayed.
   - The game score can incremently grows after each victory of the player or computer.
   - The score counter will remain unaffected in the case of a draw.
-![Score counter](/assets/images/score.JPG)
+![Computer score counter](/assets/images/computer%20score.png)
+    ![Player score counter](/assets/images/player%20score.png)
 
 - **THE GAME CHOICE BUTTONS**
   - The game choice buttons are displayed right below the game choice display area.
   - The game buttons are easily accessible with the text and icons representing the choice. 
-    ![Rules section](/assets/images/footer.JPG)
+    ![Game choice buttons](/assets/images/game%20choice%20buttons.png)
 
 - **THE RESTART BUTTON**
   - The restart button is displayed along with the game choice buttons for easy access.
   - The restart button resets the scores and resets the game choice display area.
-    ![Rules section](/assets/images/footer.JPG)
+    ![Restart button](/assets/images/restart%20button.png)
 
 - **WINNER MESSAGE**
   - A message is displayed when the game is won.
   - The message showss the user who won the game.
   - The game choice buttons are also removed upon reaching this stage of the game.
   - The restart game will still be available for users to play the game again.
-    ![Rules section](/assets/images/footer.JPG)
+    ![Computer wins message](/assets/images/computer%20wins.png)
+    ![Player wins message](/assets/images/player%20wins.png)
 
 - **THE RULES SECTION**
   - The rules of the game is located in the bottom of the website.
   - Users can easily access it by scrolling down, to comprehend the simple instructions.
-    ![Rules section](/assets/images/footer.JPG)
+    ![Rules section](/assets/images/rules.png)
 
 ### FEATURES LEFT TO IMPLEMENT
 
@@ -105,9 +107,11 @@ Wireframes were designed using Lucidcharts's online wireframe tool.
 The game uses responsive design or users to enjoy it across devices. The website maintains a well layed out structure without changing the way the  game looks when played on different devices like mobiles, tablets and desktops.
 
 - DESKTOP
+  
 ![Responsive desktop](/assets/images/responsive-desktop.png)
 
 - TABLET
+  
 ![Responsive tablet](/assets/images/responsive-ipadmini.png)
 
 - MOBILE
