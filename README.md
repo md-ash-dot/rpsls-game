@@ -6,6 +6,39 @@ This online platform is designed to provide an effortless user experience, ensur
 
 ![Responsive mockup](/assets/images/responsive.JPG)
 
+## USER EXPERIENCE
+
+### USER GOALS
+
+- The user should easily understand the game upon landing on the website.
+- The user should understand the game play rules visually through an image and by reading text.
+- The user should view the player and computer choices at every round.
+- The user should have easy access to all game play buttons.
+- The user should identify each button of the game choices visually through an icon and by reading text.
+- The user should have an option to restart the game at all times.
+- The user should view the score from the start to end of the game.
+- The user should see the player and computer score incrementing after each victory.
+- The user should play against random computer choices and experience a fair game play.
+- The user should view a message at the end of the game, showing the winner of the game.
+- The user should play the game until the winning point is reached either by the player or the computer.
+- The user should view the rules of the game if required.
+
+### DESIGN
+
+The design of the Rock Paper Scissors Lizard Spock game website offers a engaging experience for users of all ages. A very user centric approach has been taken to make the experience enjoyable. The design uses a very simple and intuitive layout with lively colours, guiding users seemlessly through the game. Accessibility is acknowledged with colours showing vibrancy and inclusivity. The user experience allows users of various degrees of familiarity to the game to understand the choices through the clear buttons holding icons and texts. Responsive design ensures a consistent experience across devices.
+
+#### TYPOGRAPHY
+
+The fomt families used are Nanum Gothic Coding, monospace. It aims to strike a balance between playful and clear communication, contributing to a user friendly interface that aligns with the website's goal of making the game accessible to users of all ages.
+
+#### COLOUR SCHEME
+
+### WIREFRAMES
+
+Wireframes were designed using Lucidcharts's online wireframe tool.
+![Wire frames](/assets/images/landing.JPG)
+
+
 ## FEATURES
 
 ### EXISTING FEATURES
@@ -61,14 +94,18 @@ This online platform is designed to provide an effortless user experience, ensur
   - Users can easily access it by scrolling down, to comprehend the simple instructions.
     ![Rules section](/assets/images/footer.JPG)
 
-
-
 ### FEATURES LEFT TO IMPLEMENT
 
-- Seperate section displaying messages generated during each rounf of play.
+- Seperate section displaying messages generated during each round of play.
 - Option to chose the number of rounds in a total game.
 - Feedback in the form of sound or animation to make the experience more enjoyable.
 - Background music, with the option to mute.
+
+### RESPONSIVE DESIGN
+
+The game uses responsive design or users to enjoy it across devices. The website maintains a well layed out structure without changing the way the game looks when played on different devices like mobiles, tablets and desktops.
+![Responsive design](/assets/images/footer.JPG)
+
 
 ## TESTING
 
@@ -94,7 +131,7 @@ This online platform is designed to provide an effortless user experience, ensur
 
 - ACCESSIBILITY
   
-  - The colours and fonts used are easy to read and checked using lighthouse in devtools.
+  - The colours and fonts used are easy to read and checked using lighthouse in devtools for mobile and desktop.
     ![Accessibility score](/assets/images/lighthouse.JPG)
 
 ## BUGS
