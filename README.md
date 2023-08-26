@@ -111,6 +111,7 @@ The game uses responsive design or users to enjoy it across devices. The website
 ![Responsive tablet](/assets/images/responsive-ipadmini.png)
 
 - MOBILE
+  
 ![Responsive mobile](/assets/images/responsive-galaxyS8%2B.png)
 
 ## TESTING
